@@ -57,4 +57,9 @@ passwd: all authentication tokens updated successfully.
 ```
 #### Following is for only Master Machine 
 Before proceeding further, we need to initiliaze the initdb database which is responsible for creating a new PostgreSQL cluster. A cluster is a group or collection of several databases that are managed by a cluster.
+freestar.
+So, to initialize the database, run the command:
+```
+$ sudo /usr/pgsql-15/bin/postgresql-15-setup initdb
+```
 
