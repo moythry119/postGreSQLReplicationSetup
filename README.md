@@ -16,7 +16,8 @@ $ sudo dnf module list postgresql
 ```
 
 To install the latest PostgreSQL version, we need to, first, install the PostgreSQL YUM repository on our system as shown.
-##### Login as `root` user
+
+--------------- Rocky & AlmaLinux 9 --------------- 
 ```
-sudo su -
+$ sudo dnf install https://download.postgresql.org/pub/repos/yum/reporpms/EL-9-x86_64/pgdg-redhat-repo-latest.noarch.rpm
 ```
