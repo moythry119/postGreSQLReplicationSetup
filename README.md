@@ -45,4 +45,6 @@ $ psql -V
 ```
 psql (PostgreSQL) 15.0
 
- Initialize the PostgreSQL Database
+#### Initialize the PostgreSQL Database
+
+Change default postgre user password
