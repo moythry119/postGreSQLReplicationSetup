@@ -1,1 +1,1 @@
-# postGreSQLReplicationSetup
+# postgreSQL Replication Setup
