@@ -8,3 +8,15 @@ Linux Version: Rocky Linux 9
 |192.168.10.192| 
 
 Postgre installation will take place in 192.168.10.190 machine
+
+## Step 1: Add the PostgreSQL Repository
+The default version of PostgreSQL on Appstream repositories is PostgreSQL 10.
+```
+$ sudo dnf module list postgresql
+```
+
+To install the latest PostgreSQL version, we need to, first, install the PostgreSQL YUM repository on our system as shown.
+##### Login as `root` user
+```
+sudo su -
+```
