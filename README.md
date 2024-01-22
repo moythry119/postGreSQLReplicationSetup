@@ -47,7 +47,7 @@ psql (PostgreSQL) 15.0
 
 ### Initialize the PostgreSQL Database
 
-Change default postgre user password
+#### Change default postgre user password
 ```
 [root@pgnode2 ~]# passwd postgres
 Changing password for user postgres,
@@ -56,3 +56,6 @@ BAD PASSWORD: The password fails the dictionary check - it is too simplistic/sys
 Retype new password:
 passwd: all authentication tokens updated successfully.
 ```
+#### Following is for only Master Machine 
+Before proceeding further, we need to initiliaze the initdb database which is responsible for creating a new PostgreSQL cluster.
+
