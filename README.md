@@ -45,6 +45,13 @@ $ psql -V
 ```
 psql (PostgreSQL) 15.0
 
-#### Initialize the PostgreSQL Database
+### Initialize the PostgreSQL Database
 
 Change default postgre user password
+----------------------------------
+[root@pgnode2 ~]# passwd postgres
+Changing password for user postgres,
+New password:
+BAD PASSWORD: The password fails the dictionary check - it is too simplistic/systematic
+Retype new password:
+passwd: all authentication tokens updated successfully.
